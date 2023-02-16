@@ -1,0 +1,219 @@
+*{padding: 00px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu-area { 
+position: fixed; 
+z-index: +8;
+background: rgb(255, 205, 238);
+top:0; 
+left: 0; 
+width: 100%; 
+height: 20px; 
+cursor: pointer; 
+transition:3s;  
+}
+/*you have to make this .menu area which is a nav rn into
+ a div to make it horizontal and change active height to width */
+    
+.active {
+    
+    height: 100vh;}
+
+body {background-color: white;}
+
+#beasts {height: 440px;
+position: absolute;
+left: 41%;
+top: 38%;
+z-index: 2;}
+
+#time {height: 410px;
+position: absolute;
+left: 75%;
+top: 52%;
+z-index: 2;}
+
+#ocean { height: 68px;
+position: absolute;
+left: 40%;
+top: 97%;
+z-index: 2;
+rotate: 0deg;}
+
+#pachinko { height: 400px;
+position: absolute;
+left: 58%;
+top: 64%;
+z-index: 2;
+rotate: -90deg;}
+
+#rich {height: 90px;
+position: absolute;
+left: 67%;
+top: 75%;
+z-index: 2;
+rotate: 90deg;}
+
+#school {height: 400px;
+position: absolute;
+left: 87%;
+top: 52%;
+z-index: 2;}
+
+#sun {height: 350px;
+position: absolute;
+left: 91%;
+top: 57%;
+z-index: 2;}
+
+#sokcho { height: 380px;
+position: absolute;
+left: 58%;
+top: 58%;
+z-index: 2;
+rotate: -90deg;}
+
+#check { height:116%;
+    width: 39%;
+    position: absolute;
+top: 0;
+opacity:30%;
+z-index: 1;}
+
+/*#title { height:55%;
+    position: absolute;
+width: 45%;
+top: 28px;
+left: 29%;
+z-index: 1; }*/
+
+#jhumpa {height: 38%;
+    position: absolute;
+    top: 909px;
+    left: 325px;
+}
+
+#aboutus {position: absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: small;
+color:rgba(198, 221, 241, 0.874);
+top: 3%;
+left: 75%;}
+#newsletter {position: absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: small;
+color: rgba(198, 221, 241, 0.874);
+top: 3%;
+left: 82%;}
+
+#contact {position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgba(198, 221, 241, 0.874);
+    top: 3%;
+    left: 90%;}
+
+    header {
+        background-color: rgb(250, 209, 220); 
+        height: 4%;
+        width: 100%;
+    opacity: 45%; }
+ .subheading {background-color: rgb(250, 209, 220);
+            height: 28%;
+    z-index: 1;
+opacity: 25%;}
+ 
+    
+    .featured-books { 
+        background-color: white;
+        height: 80vh; /* vh set the height 80% of the view port*/ 
+        z-index: -1;
+    }
+    
+    .new-releases { 
+        background-color: rgba(255, 182, 193, 0.406);
+        height: 470px; 
+        display: grid; 
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    .releases{ 
+        border: 0.5px solid white; 
+        height: 100%; 
+    }
+    .green-box { background-color: rgba(47, 179, 255, 0.169);
+    }
+    
+    .orange-box {
+        background-color: rgba(0, 204, 255, 0.393);
+    }
+    .blue-box { background-color: rgba(255, 238, 0, 0.311);}
+    .yellow-box { background-color: rgb(255, 205, 238);}
+
+    #chan {height: 900px;
+        position: absolute;
+        left: -4%;
+         top: 107%;}
+#click {position: absolute;
+left: 5%;
+top: 167%;}
+
+a:visited {color:rgba(198, 221, 241, 0.874);}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+top: 122%;
+left: -40%;}
+.btn {
+    display: inline-block;
+    font-size: medium;
+    padding: 24px 70px;
+    background: rgba(0, 204, 255, 0.393);
+    color:beige; 
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    position: relative;
+    box-shadow: 0 2px 25px rgba(198, 221, 241, 0.874);
+    transition: box-shadow 0.25s;
+}
+.btn:active {
+    background: rgb(250, 209, 220);
+    box-shadow: 0 2px 25px rgba(255, 182, 193, 0.406);
+}
+.hero-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20%;
+}
+.btn-2 {
+    display: inline-block;
+    font-size: medium;
+    padding: 24px 70px;
+    background:rgb(250, 209, 220);
+    color: rgba(0, 204, 255, 0.393); 
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    position: relative;
+    box-shadow: 0 2px 25px rgba(198, 221, 241, 0.874);
+    transition: box-shadow 0.25s;
+}
+.btn-2 :active {
+    background: rgb(250, 209, 220);
+    box-shadow: 0 2px 25px rgba(255, 182, 193, 0.406);
+}
+
+
